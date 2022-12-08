@@ -11,7 +11,7 @@ namespace EmployeesCh12.Models
     {
         [Key]
         public int ID { get; set; }
-        public ICollection<DepartmentLocation> DepartmentLocation { get; set; }
+        public ICollection<DepartmentLocation> DepartmentLocations { get; set; }
 
         [DisplayFormat(NullDisplayText = "Sales")]
         public Type? Type { get; set; }
